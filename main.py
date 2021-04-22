@@ -24,14 +24,6 @@ class CellState:
     DEAD = 0
     ALIVE = 1
 
-
-class Piece(object):
-    def __init__(self, x, y, shape):
-        self.x = x
-        self.y = y
-        self.color = alive_color
-
-
 def draw(window, grid):
 
     # Black Background
